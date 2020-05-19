@@ -1,43 +1,42 @@
 {
-    "name": "blus_2.0",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "npx nodemon server/server.js -w server"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "axios": "^0.19.0",
-      "body-parser": "^1.19.0",
-      "compression": "^1.7.3",
-      "connect-session-sequelize": "^6.0.0",
-      "cors": "^2.8.5",
-      "dotenv": "^8.2.0",
-      "express": "^4.17.1",
-      "express-session": "^1.16.2",
-      "history": "^4.9.0",
-      "lodash": "^4.17.15",
-      "morgan": "^1.9.1",
-      "mysql": "^2.18.1",
-      "passport": "^0.4.0",
-      "passport-google-oauth": "^2.0.0",
-      "prop-types": "^15.7.2",
-      "react": "^16.8.6",
-      "react-dom": "^16.8.6",
-      "react-redux": "^7.1.0",
-      "react-router-dom": "^5.0.1",
-      "redux": "^4.0.4",
-      "redux-logger": "^3.0.6",
-      "redux-thunk": "^2.3.0",
-      "sequelize": "^5.10.3"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.4"
-    }
+  "name": "blus_2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon server/server.js -w server",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.3",
+    "connect-session-sequelize": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "history": "^4.9.0",
+    "lodash": "^4.17.15",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^5.10.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
-  
-  
+}
